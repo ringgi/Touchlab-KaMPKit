@@ -1,4 +1,4 @@
 include(":app", ":shared")
-rootProject.name = "KaMPKit"
+rootProject.name = "sf-jb-kmm-touchlab-KaMPKit"
 
 enableFeaturePreview("VERSION_CATALOGS")
