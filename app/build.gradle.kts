@@ -27,8 +27,8 @@ android {
     }
 
     lint {
-        isWarningsAsErrors = true
-        isAbortOnError = true
+    //    isWarningsAsErrors = true
+    //    isAbortOnError = true
     }
 
     buildFeatures {

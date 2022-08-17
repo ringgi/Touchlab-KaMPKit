@@ -1,8 +1,8 @@
 plugins {
+    id("com.android.application")
     kotlin("multiplatform")
     kotlin("native.cocoapods")
     id("kotlinx-serialization")
-    id("com.android.library")
     id("com.squareup.sqldelight")
 }
 
@@ -20,8 +20,8 @@ android {
     }
 
     lint {
-        isWarningsAsErrors = true
-        isAbortOnError = true
+        //isWarningsAsErrors = true
+        //isAbortOnError = true
     }
 }
 
